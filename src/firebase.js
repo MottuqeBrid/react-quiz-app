@@ -15,14 +15,5 @@ const app = initializeApp({
   appId: import.meta.env.VITE_REACT_APP_APP_ID,
   databaseURL: import.meta.env.VITE_REACT_DATABASE_URL,
 });
-// firebase configuration
-// const app = initializeApp({
-//   apiKey: "AIzaSyC99cr8J_kTewV3i2CT9kLh3ytoIdOFTGc",
-//   authDomain: "react-quize-dev-001.firebaseapp.com",
-//   projectId: "react-quize-dev-001",
-//   storageBucket: "react-quize-dev-001.firebasestorage.app",
-//   messagingSenderId: "863590870748",
-//   appId: "1:863590870748:web:9893ffcc9221e499400e19",
-// });
 
 export default app;
